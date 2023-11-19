@@ -2,8 +2,11 @@
   "name": "-cdftv-realtimecomunication",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/server.js",
+  "type": "commonjs",
   "scripts": {
+    "dev": "node --watch .",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
